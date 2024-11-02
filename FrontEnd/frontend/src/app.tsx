@@ -39,10 +39,27 @@ const App: React.FC = () => {
   };
 
   return (
-    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f3f3f3' }}>
-      <div style={{ backgroundColor: 'white', padding: '20px', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', maxWidth: '400px', width: '100%' }}>
-        <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#333', marginBottom: '20px' }}>Calculador de MMC</h1>
-
+    <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f9f9f9', padding: '20px' }}>
+      <div style={{
+        backgroundColor: 'white',
+        padding: '30px',
+        borderRadius: '12px',
+        boxShadow: '0 10px 20px rgba(0, 0, 0, 0.1)',
+        maxWidth: '500px',
+        width: '100%',
+        textAlign: 'center',
+        transition: 'box-shadow 0.3s',
+      }}>
+        <h1 style={{
+          fontSize: '28px',
+          fontWeight: 'bold',
+          color: '#333',
+          marginBottom: '20px',
+          borderBottom: '2px solid #eee',
+          paddingBottom: '10px',
+        }}>
+          Calculador de MMC
+        </h1>
         <InputForm onCalcularMMC={calcularMMC} />
         <ResultDisplay resultado={resultado} erro={erro} />
       </div>
