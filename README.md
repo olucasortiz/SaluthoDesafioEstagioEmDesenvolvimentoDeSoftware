@@ -4,4 +4,4 @@ Este projeto foi desenvolvido como parte do processo seletivo para estágio na S
 
 Tecnologias Utilizadas
 Backend: Java 21 com Spring Boot (optei por essa tecnologia devido à minha maior familiaridade. Estou aberto a aprender Django, caso necessário).
-Frontend: React com Axios para requisições HTTP.
+Frontend: React com Axios para requisições HTTP, TypeScript.
